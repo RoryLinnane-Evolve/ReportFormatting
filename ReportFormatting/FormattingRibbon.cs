@@ -22,12 +22,9 @@ namespace ReportFormatting
             Word.Document doc = Globals.ThisAddIn.Application.ActiveDocument;
             Word.Application app = Globals.ThisAddIn.Application;
             doc.Paragraphs.Alignment = Word.WdParagraphAlignment.wdAlignParagraphCenter;
-            //doc.Paragraphs.LineSpacing = 1.5f;
 
             doc.Paragraphs.SpaceAfter = 0;
             doc.Paragraphs.SpaceBefore = 0;
-            //doc.Paragraphs.SpaceAfterAuto = 0;
-            //doc.Paragraphs.SpaceBeforeAuto = 0;
 
 
             //File dialog

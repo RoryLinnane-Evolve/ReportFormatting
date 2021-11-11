@@ -60,7 +60,7 @@ namespace ReportFormatting
             // 
             // btnSelectImages
             // 
-            this.btnSelectImages.Label = "Select Images";
+            this.btnSelectImages.Label = "Select Plates";
             this.btnSelectImages.Name = "btnSelectImages";
             this.btnSelectImages.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnSelectImages_Click);
             // 
